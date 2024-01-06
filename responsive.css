@@ -1,0 +1,236 @@
+@media screen and (min-width:300px) and (max-width:1100px) {
+
+  .top-bar .menus ul {
+    margin: 10px 0px 30px 0px;
+  }
+
+  .top-header {
+    height: 25vh;
+    z-index: 100000;
+  }
+
+  .top-header .logo-left h1 {
+    font-size: 48px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  .top-header .menus ul li {
+    padding: 12px 15px;
+  }
+
+  .top-bar .menus ul li a {
+    padding: 7px 10px;
+  }
+
+  .reg-lg .login button {
+    padding: 8px 20px;
+    border-radius: 2px;
+    font-size: 16px;
+    margin: 0px 10px 0px 0px;
+  }
+
+  .reg-lg {
+    width: 100%;
+    margin: 1% 0px;
+  }
+
+  #about h1 {
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  #about .content-about .right-content p {
+    text-align: justify;
+  }
+
+  .content-about {
+    flex-direction: column;
+  }
+
+  .content-about .left-img {
+    width: 100%;
+  }
+
+  .content-about .left-img img {
+    width: 100%;
+    margin: auto;
+  }
+
+  .content-about .right-content {
+    width: 90%;
+  }
+
+  #services h3 {
+    width: 40%;
+  }
+
+  #services .loancontainers {
+    flex-wrap: wrap;
+  }
+
+  #services .service-list {
+    flex-wrap: wrap;
+  }
+
+  #services {
+    height: auto;
+    text-align: justify;
+  }
+
+  #teams {
+    height: auto;
+    text-align: justify;
+  }
+
+  #teams h2 {
+    width: 40%;
+  }
+
+  .team-container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .team-container .team {
+    position: relative;
+    width: 72%;
+    margin: 10px 0px 10px 0px;
+  }
+
+  #contact .form-container .left-info {
+    height: 500px;
+  }
+
+}
+
+
+@media screen and (min-width:300px) and (max-width:600px) {
+
+  .top-bar .logo-left h1 {
+    font-size: 24px;
+  }
+
+  .text-box h2 {
+    font-size: 1.5rem;
+  }
+
+  .reg-lg .login button {
+    font: 16px;
+  }
+
+  .text-box p {
+    font-size: 14px;
+    padding: 10px 20px;
+    line-height: 34px;
+  }
+
+  .text-box a {
+    font-size: 16px;
+    padding: 5px 12px;
+    border-radius: 5px;
+  }
+
+  .top-bar {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .top-bar .menus>ul {
+    position: absolute;
+    background: white;
+    width: 100%;
+    text-align: center;
+    height: 0px;
+    overflow: hidden;
+    display: block;
+    top: 83%;
+    left: 0%;
+    transition: height 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+
+  .top-bar .menus>.menu-toggle {
+    height: 305px;
+    transition: all ease-in-out 0.5s;
+  }
+
+  .top-bar .menus>ul li a {
+    color: black;
+    padding: 6px 20px;
+
+  }
+
+  .top-bar .menus ul li a:hover {
+    background-color: #e67e22;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .top-bar .menus ul li {
+    padding: 20px 24px;
+  }
+
+  .menutoggle {
+    display: block;
+    position: absolute;
+    right: 10px;
+  }
+
+  .menutoggle i {
+    color: white;
+    font-size: 20px;
+  }
+
+  .toggle-active i {
+    color: black;
+  }
+
+  .sr-list {
+    display: none;
+  }
+
+  .team-container .team {
+    height: auto;
+    width: 90%;
+  }
+
+  #services .loancontainers .content1,
+  #services .loancontainers .content2 {
+    width: 100%;
+  }
+
+  #teams {
+    height: auto;
+  }
+
+  .team-container {
+    height: auto;
+  }
+
+  #contact {
+    height: auto;
+  }
+
+  #contact .form-container {
+    flex-direction: column;
+  }
+
+  #contact .form-container .left-info {
+    height: auto;
+    width: 100%;
+  }
+
+  #contact .form-container .right-form {
+    width: 100%;
+    padding: 10px;
+  }
+
+  #contact .form-container .right-form form input {
+    width: 90%;
+  }
+
+  #contact .form-container .right-form h3 {
+    font-size: 25px;
+  }
+
+  #contact .form-container .right-form form button {
+    width: 70%;
+  }
+}
